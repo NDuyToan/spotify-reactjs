@@ -3,7 +3,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        'screen-navbar-player': 'calc(100vh - 6rem - 6rem)'
+      }
+    },
   },
   plugins: [],
 }
