@@ -1,0 +1,33 @@
+.player-music {
+  background-color: #111827!important;
+  height: 6rem;
+ 
+}
+.rhap_time {
+  color:#fff!important;
+}
+
+::selection {
+  background-color: transparent;
+  color: turquoise;
+}
+
+/* width */
+.list-song::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.list-song::-webkit-scrollbar-track {
+  background: #334155; 
+}
+ 
+/* Handle */
+.list-song::-webkit-scrollbar-thumb {
+  background: #38bdf8; 
+}
+
+/* Handle on hover */
+.list-song::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
